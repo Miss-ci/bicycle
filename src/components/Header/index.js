@@ -48,10 +48,10 @@ export default class Header extends React.Component {
           <Col span={4} className="breadcrumb-title">首页</Col>
           <Col span={20} className="weather">
             <span className="date">{this.state.sysTime}</span>
-            <span className="weather-detail">
-              <img src={this.state.dayPictureUrl} alt="" style={{ marginRight: 10 }} />
-              {this.state.weather}
+            <span className="weather-image">
+              <img src={this.state.dayPictureUrl} alt="" />
             </span>
+            <span className="weather-detail">{this.state.weather}</span>
           </Col>
         </Row>
       </div>
