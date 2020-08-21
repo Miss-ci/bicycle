@@ -7,13 +7,13 @@ import NavLeft from "./components/Navleft"
 
 import "./style/common.less"
 export default class Admin extends Component {
-    render () {
+    render() {
         return (
             <Row className="container">
-                <Col span="3" className="nav-left">
+                <Col span={3} className="nav-left">
                     <NavLeft />
                 </Col>
-                <Col span="21" className="main">
+                <Col span={21} className="main">
                     <Header />
                     <Row className="content">
                         content
