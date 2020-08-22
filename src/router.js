@@ -4,6 +4,7 @@ import App from "./App";
 import Login from "./pages/login"
 import Admin from "./admin"
 import Button from "./pages/ui/button"
+import Model from "./pages/ui/model"
 import Nomatch from "./pages/nomatch"
 export default class MyRouter extends Component {
     render() {
@@ -16,6 +17,7 @@ export default class MyRouter extends Component {
                         <Admin>
                             <Switch>
                                 <Route path="/ui/buttons" component={Button} />
+                                <Route path="/ui/modals" component={Model} />
                                 <Route component={Nomatch} />
                             </Switch>
                         </Admin>
