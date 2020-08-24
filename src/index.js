@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.less";
 // import App from './App'
-import Admin from './admin'
-import IRouter from "./pages/router_demo/route2/router"
+// import Admin from './admin'
+// import IRouter from "./pages/router_demo/route2/router"
 import * as serviceWorker from "./serviceWorker";
 import MyRouter from "./router.js";
 ReactDOM.render(<MyRouter />, document.getElementById("root"));
