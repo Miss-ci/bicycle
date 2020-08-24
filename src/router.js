@@ -11,7 +11,7 @@ export default class MyRouter extends Component {
         return (
             <HashRouter>
                 <App>
-                    <Switch>
+                    {/* <Switch> */}
                     <Route path="/login" component={Login} />
                     <Route path="/ui" render={() =>
                         <Admin>
@@ -22,8 +22,8 @@ export default class MyRouter extends Component {
                             </Switch>
                         </Admin>
                     } />
-                    <Route component={Nomatch} />
-                    </Switch>
+                    {/* <Route component={Nomatch} /> */}
+                    {/* </Switch> */}
                 </App>
             </HashRouter>
         )

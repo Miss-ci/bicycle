@@ -17,11 +17,11 @@ export default class Header extends React.Component {
     }, 1000);
   }
   componentDidMount() {
-    this.getWeatherData()
+    // this.getWeatherData()
   }
 
   getWeatherData = () => {
-    let city = "北京"
+    let city = "杭州"
     // encodeURIComponent对中文进行编码
     Api.jsonp({
       url: "http://api.map.baidu.com/telematics/v3/weather?location=" + encodeURIComponent(city) + "&output=json&ak=6tYzTvGZSOpYB5Oc2YGGOKt8"
