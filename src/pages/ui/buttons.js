@@ -45,7 +45,7 @@ export default class Buttons extends Component {
                     <Button shape="circle" loading={loading}></Button>
                     <Button type="primary" onClick={this.closeLoading}>关闭</Button>
                 </Card> 
-                <Card title="按钮组">
+                <Card title="按钮组" style={{marginBottom: 10}}>
                     <ButtonGroup>
                         <Button type="primary">
                             <Icon type="left" />
