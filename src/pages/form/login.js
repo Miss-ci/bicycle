@@ -78,7 +78,7 @@ class FormLogin extends React.Component{
                             <a href="#" style={{float: "right", marginRight: 10}}>忘记密码</a>
                         </FormItem>
                         <FormItem>
-                            <Button type="primary" onClick={this.handelSubmit}>登录</Button>
+                            <Button type="primary" onClick={this.handelSubmit}>登陆登录</Button>
                         </FormItem>
                     </Form>
                 </Card>
